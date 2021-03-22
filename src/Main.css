@@ -1,0 +1,7 @@
+.main {
+    display:flex;
+    flex:0.9;
+    flex-direction:column;
+     margin-top:20px;
+    margin-left:40%;
+}

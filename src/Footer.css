@@ -1,0 +1,63 @@
+.footer {
+    color: white;
+    height: 10vh;
+    text-align: center;
+    bottom:10px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.fa {
+    color:white; 
+    text-decoration: none;
+    font-size: 30px;
+    margin: 12px 15px;
+  
+}
+
+.fa > p {
+  display: none;
+}
+
+.fa-twitter {
+
+    color: #55ACEE;
+  }
+
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  
+.fa-instagram {
+    color: greenyellow;
+  }
+
+
+
+
+@media (min-width:300px){
+   .footer__item  > h1{
+      font-size: 14px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+   .fa{
+      font-size: 15px;
+
+    }
+}
+@media (min-width:400px){
+    .footer__item > h1 {
+      font-size: 17px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+@media (min-width:500px){
+  .footer__item > h1 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}

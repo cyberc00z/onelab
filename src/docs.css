@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+.docs {
+    color: gray;
+    font-family: 'Playfair Display ', serif;
+    font-size: 0.5rem; 
+    display: flex;
+     
+    
+}  
+
+.component {
+    margin-left: 50%;
+}
+
+@media (min-width:300px){
+    .docs{
+        font-size: 10px;
+        display: block;
+    }
+}
+
+
+@media (min-width:400px){
+    .docs {
+        font-size:10px;
+        display: block;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:500px){
+    .docs {
+        font-size: 25px;
+        display: flex;
+    }
+}

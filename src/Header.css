@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+.header {
+    justify-content:space-between;
+    height: 5rem;
+    background-color: #18181b;     
+    display: flex;
+    
+    width: 100%;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.header__logo > img {
+    object-fit:contain;
+    height:60px;
+    margin-left: 3rem;
+    margin-top:15px;
+} 
+
+.header__search {
+    
+    width:30%;
+     height: 3.5rem;
+    display: flex;
+    
+    border-radius: 8px;
+    overflow:hidden; 
+    align-items: center;
+ 
+
+}
+
+.header__searchIcon {
+    margin-top:1rem;
+    font-size: 20px;
+}
+
+
+
+.header__search> input {
+    width:30vw;
+    font-size:15px;
+    margin-top:0.5rem;
+    align-items:center;
+    margin-left:5rem;
+    outline:none;
+    background:transparent;
+    border:none;
+    color:white;
+
+}
+
+.header__buttons{
+    justify-content:space-between;
+   
+}
+
+.header__buttons > button {
+    margin:5px 5px;
+}
+
+.header__links {
+    display:flex;
+    font-size: 20px; 
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.header__linkDocs {
+    
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 20px 20px;
+}
+
+@media (min-width:300px){
+    
+.header {
+    justify-content:space-between;
+    height: 5rem;
+    background-color: #18181b;     
+    display: flex;
+    
+    min-width: 100px;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.header__links {
+    display:flex;
+    font-size: 15px; 
+    margin-top: 15px;
+    margin-right: 0px;
+}
+
+
+.header__linkDocs {
+    
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+.header__logo > img {
+    object-fit:contain;
+    height:40px;
+    margin-left: 1rem;
+    margin-top:15px;
+}
+
+}
+
+@media (min-width:400px){
+     
+.header {
+    justify-content:space-between;
+    height: 5rem;
+    background-color: #18181b;     
+    display: flex;
+    
+    min-width: 100px;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.header__links {
+    display:flex;
+    font-size: 20px; 
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+
+.header__linkDocs {
+    
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+.header__logo > img {
+    object-fit:contain;
+    height:50px;
+    margin-left: 1rem;
+    margin-top:15px;
+}   
+}
+
+
+@media (min-width:500px){
+    .header {
+        justify-content:space-between;
+        height: 5rem;
+        background-color: #18181b;     
+        display: flex;
+        
+        min-width: 100px;
+        z-index: 100;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        color:white;
+        font-family: 'Noto Sans KR', sans-serif;
+    
+    }
+    
+    .header__links {
+        display:flex;
+        font-size: 20px; 
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    
+    
+    .header__linkDocs {
+        
+        color: white;
+        border-radius: 20px;
+        text-decoration: none;
+        margin: 10px 5px;
+    }
+    
+    .header__logo > img {
+        object-fit:contain;
+        height:50px;
+        margin-left: 1rem;
+        margin-top:15px;
+    }      
+}
+
+@media (min-width:700px){
+    .header {
+        justify-content:space-between;
+        height: 5rem;
+        background-color: #18181b;     
+        display: flex;
+        
+        min-width: 100px;
+        z-index: 100;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        color:white;
+       
+    
+    }
+    
+    .header__links {
+        display:flex;
+        font-size: 20px; 
+        margin-top: 20px;
+        margin-right: 20px;
+        font-family:  cursive;
+    }
+    
+    
+    .header__linkDocs {
+        
+        color: white;
+        border-radius: 20px;
+        text-decoration: none;
+        margin: 10px 5px;
+    }
+    
+    .header__logo > img {
+        object-fit:contain;
+        height:70px;
+        margin-left: 2rem;
+        margin-top:10px;
+    }      
+}

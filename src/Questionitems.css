@@ -1,0 +1,16 @@
+.questionItems {
+    font-size: 10px;
+    text-align: center;
+}
+
+.Questionitems-button {
+    font-size: 20px;
+    background-color: azure;
+    display: flex;
+    margin-left: 20%;
+}
+
+.ques__desc {
+    font-size:20px;
+    margin-left: 20%;
+}
